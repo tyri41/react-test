@@ -2,7 +2,7 @@ import { createStore } from 'redux'
 import rootReducer from './reducers'
 
 const Width = 3;
-const Height = 7;
+const Height = 6;
 
 const store = createStore(rootReducer, {
     width: Width,
